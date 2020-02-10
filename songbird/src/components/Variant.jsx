@@ -1,10 +1,12 @@
 import React from 'react'
+import Circle from './Circle'
 
 function Variant(){
   return (
-    <p className="options--variant">
+    <div className="options--variant">
+      <Circle />
       Орёл
-    </p>
+    </div>
   )
 }
 

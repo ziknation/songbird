@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Circle(){
-  return(
-    <div className="circle">1</div>
+  return (
+    <div className="circle"></div>
   )
 }
 
