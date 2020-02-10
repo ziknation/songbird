@@ -1,11 +1,12 @@
 import React from 'react'
 import Circle from './Circle'
+import birdsData from '../js/birdsData'
 
-function Variant(){
+function Variant(props){
   return (
     <div className="options--variant">
       <Circle />
-      Орёл
+      {birdsData[0][props.id - 1].name}
     </div>
   )
 }

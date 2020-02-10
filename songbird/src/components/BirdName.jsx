@@ -2,7 +2,7 @@ import React from 'react'
 
 function BirdName(){
   return (
-    <p className="question_block--question-bird_name">Ястреб</p>
+    <p className="question_block--question-bird_name">******</p>
   )
 }
 

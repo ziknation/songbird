@@ -2,7 +2,7 @@ import React from 'react'
 
 function NextLevel(){
   return(
-    <p class="next_level">Next level</p>
+    <p className="next_level">Next level</p>
   )
 }
 
