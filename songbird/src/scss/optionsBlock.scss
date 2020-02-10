@@ -1,0 +1,39 @@
+$text: #ffffff;
+
+.joint_block{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 20%;
+    min-width: 100px;
+    max-width: 300px;
+    border-radius: 9px;
+  }
+  .options{
+    width: 50%;
+    margin-right: 40px;
+    &--variant{
+      color: $text;
+      height: 35px;
+      border: 1px solid rgba(128, 128, 128, 0.6);
+      border-bottom: 0px;
+      padding-top: 14px;
+      padding-left: 20px;
+    }
+    &--variant:first-child{
+      border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+      border-top-left-radius: 9px;
+      border-top-right-radius: 9px;
+    }
+    &--variant:last-child{
+      border-bottom: 1px solid rgba(128, 128, 128, 0.6);
+      border-bottom-left-radius: 9px;
+      border-bottom-right-radius: 9px;
+    }
+  }
+  .wrapper{
+    width: 50%;
+  }
+}

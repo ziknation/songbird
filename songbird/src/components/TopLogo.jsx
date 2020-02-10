@@ -2,7 +2,7 @@ import React from 'react';
 
 function TopLogo(){
   return(
-    <p className="header--top-logo">Song<span>bird</span></p>
+    <h1 className="header--top-logo">Song<span>bird</span></h1>
   )
 }
 

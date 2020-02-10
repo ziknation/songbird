@@ -1,8 +1,9 @@
 import React from 'react'
+import bird from "../img/bird.jpg"
 
 function BirdImage(){
   return (
-    <img src="./img/bird.jpg" alt="bird"/>
+    <img src={bird} alt="bird" className="bird_image"/>
   )
 }
 
