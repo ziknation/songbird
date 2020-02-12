@@ -1,6 +1,8 @@
 $text: #e6e6e6;
 $lightGrey: rgba(128, 128, 128, 0.6);
 $grey: #303030;
+$green: #00BC8C;
+$red: #D62C1A;
 
 
 .joint_block{
@@ -73,4 +75,18 @@ $grey: #303030;
       margin-top: 10px;
     }
   }
+}
+
+.active_green{
+  background-color: $green !important;
+}
+
+.active_red{
+  background-color: $red !important;
+}
+
+.stub{
+  color: $text;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }

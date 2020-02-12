@@ -4,9 +4,7 @@ import 'react-h5-audio-player/lib/styles.css';
 
 const Player = () => (
   <AudioPlayer
-    autoPlay
-    src=""
-    onPlay={e => console.log("onPlay")}
+    src=''
   />
 );
 
