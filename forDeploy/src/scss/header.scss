@@ -2,10 +2,12 @@ $text: #FFFFFF;
 $darkGreen: #009A76;
 $lightGreen: #00BC8C;
 
-@font-face{
-  font-family: MurreyC;
-  src: url(/src/font/MurreyC.ttf);
-}
+// @font-face{
+//   font-family: MurreyC;
+//   src: url(../src/font/MurreyC.ttf);
+// }
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:500&display=swap');
 
 .header{
   margin-bottom: 30px;
@@ -15,7 +17,7 @@ $lightGreen: #00BC8C;
     width: 90%;
     margin: 0 auto;
     &-logo{
-      font-family: MurreyC;
+      font-family: 'Dancing Script', cursive;
       font-style: italic;
       color: $text;
       font-size: 90px;

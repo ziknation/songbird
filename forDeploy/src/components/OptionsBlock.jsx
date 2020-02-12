@@ -4,7 +4,7 @@ import Variant from './Variant.jsx'
 class OptionsBlock extends React.Component{
   constructor(props) {
     super(props);
-    this.secondLevelCheck = this.secondLevelCheck.bind(this);
+    //this.secondLevelCheck = this.secondLevelCheck.bind(this);
 
     this.state = {
       name: 'Бумеранг не запущен',
@@ -29,7 +29,7 @@ class OptionsBlock extends React.Component{
   render(){
     return(
       <div className="options">
-        <p>State:{this.state.name} </p>
+        {/* <p>State:{this.state.name} </p> */}
         <Variant updateData={this.updateData} id='1'/>
         <Variant updateData={this.updateData} id='2'/>
         <Variant updateData={this.updateData} id='3'/>

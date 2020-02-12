@@ -12,11 +12,15 @@ class Variant extends React.Component {
     }
   }
 
+  variantClick(e){
+    e.currentTarget.children[0].classList.add("active_red")
+  }
+
   // variantClick = e => {
-    //e.currentTarget.children[0].classList.add("active_green")
-    // stateStorage.chosenId = this.props.id
-    // this.props.updateData(this.state.name)
-    // console.log(this.state)
+  //   e.currentTarget.children[0].classList.add("active_red")
+    //stateStorage.chosenId = this.props.id
+    //this.props.updateData(this.state.name)
+    //console.log(this.state)
     // this.setState(() {
     //   color: 'active_green'
     // })
@@ -24,7 +28,7 @@ class Variant extends React.Component {
 
   render(){
     return (
-      <div className="options--variant" /*onClick={this.variantClick}*/ id={this.props.id}>
+      <div className="options--variant" onClick={this.variantClick} id={this.props.id}>
         <Circle color={this.state.color}/>
         {birdsData[0][this.props.id - 1].name}
       </div>
