@@ -1,0 +1,14 @@
+@import "./header.scss";
+@import "./questionBlock.scss";
+@import "./optionsBlock.scss";
+@import "./button.scss";
+
+body, p, h1, h2, h3, h4, h5, h6, li, ul, div, ol, select, option{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body{
+  background-color: #222222;
+}

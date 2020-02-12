@@ -1,0 +1,40 @@
+$grey: #303030;
+$text: #e6e6e6;
+
+.question_block{
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: $grey;
+  border-radius: 9px;
+  padding: 20px;
+  margin-bottom: 30px;
+  img{
+    width: 20%;
+    min-width: 170px;
+    max-width: 300px;
+    border-radius: 9px;
+    flex-grow: 1;
+  }
+  &--question{
+    align-self: center;
+    flex-grow: 10;
+    margin-left: 50px;
+    &-bird_name{
+      color: $text;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      height: 60px;
+    }
+    hr{
+      opacity: 0.5;
+      margin-bottom: 20px;
+    }
+    .rhap_container{
+      background-color: $grey;
+      box-shadow: none;
+      
+    }
+  }
+}
